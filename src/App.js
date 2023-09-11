@@ -5,10 +5,12 @@ import Cars from "./page/Cars";
 import About from "./page/About";
 import Login from "./page/Login"
 import Signup from "./page/Signup"
+import Suvcars from "./page/Suvcars";
 
 function App() {
   return (
     <>
+    
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -17,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
+          <Route path="/suv" element={<Suvcars />}></Route>
         </Routes>
       </Router>
     </>

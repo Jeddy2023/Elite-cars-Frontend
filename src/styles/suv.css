@@ -1,0 +1,44 @@
+.car-listing{
+    border: 1px solid #ddddddd3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin-left: 40px;
+    background-color: whitesmoke;
+
+}
+
+.Suv-img{
+    /* max-width: 150%; */
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+#Name{
+    color: #1ecb15;
+}
+
+#dis{
+    font-family: 'Syne', sans-serif;  
+    width: 70%;
+
+}
+
+#btn{
+    width: 50%;
+    height: 60px;
+    /* background-color: gray; */
+    margin-top: 10px;
+    border-radius: 8%;
+    
+}
+
+#btn:hover{
+    background-color: #1ecb15;
+    
+
+}
