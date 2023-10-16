@@ -46,8 +46,8 @@ function Home() {
     const car = selectedCar.find((car) => car.id === id);
 
     if (!gottenCar || !car) {
-      alert("Car not found!"); 
-      return; 
+      alert("Car not found!");
+      return;
     }
 
     const joined = { ...gottenCar, ...car };
@@ -103,9 +103,7 @@ function Home() {
       </div>
       <div className="mission-section">
         <div className="whychooseus">
-          <h1>
-            W<span>hy choose our servi</span>ce?
-          </h1>
+          <h1>Why choose our service?</h1>
           <div className="reason">
             <h3>
               At Elite, our expert staff offer lots of benefits and advantages
@@ -207,7 +205,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="ratings-section">
+      <div className="ratings-section">``
         <div className="mission-section-content">
           <div className="mission-section-left">
             <h1>Our Mission</h1>

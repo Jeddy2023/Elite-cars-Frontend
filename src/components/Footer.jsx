@@ -56,7 +56,7 @@ function Footer() {
             </div>
         </div>
         <div className={"copyright"}>
-        <p>All Rights Reserved. CodeXLegion</p>
+        <p>All Rights Reserved. Ken Osuh</p>
      </div>
      </footer>
    </>

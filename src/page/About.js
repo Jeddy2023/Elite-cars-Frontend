@@ -16,8 +16,7 @@ function About() {
       </section>
       <section className="value-section">
         <div className="valueh1">
-          <h1>We Value Our Clients And Want</h1>
-          <h1>Them To Have A Nice Experience</h1>
+        <h1>We Value Our Clients And Want Them To Have A Nice Experience</h1>
         </div>
         <h3>FINEST TRANSPORT</h3>
         <div className="value-section-line"></div>
@@ -58,15 +57,13 @@ function About() {
           <i class="bx bxs-car"></i> CALL TO ACTION
         </h4>
         <div className="callh1">
-          <h1>Find Us in Multiple Locations</h1>
-          <h1>for Easy Access</h1>
+          <h1>Find Us in Multiple Locations for Easy Access</h1>
         </div>
         <div className="callh3">
           <h3>
             Fermentum luctus convallis non lectus. Aliquam at ut viverra non
-            arcu massa laoreet
+            arcu massa laoreet commodo ac. Ut dui vel eu lacus. Turpis lectus leo sed mi.
           </h3>
-          <h3>commodo ac. Ut dui vel eu lacus. Turpis lectus leo sed mi.</h3>
         </div>
         <div className="callgrid">
           {callbox.map((box) => (
