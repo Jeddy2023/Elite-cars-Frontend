@@ -21,10 +21,9 @@ footer h2{
     display: flex;
     flex-direction: column;
     row-gap: 0px;
-    padding: 30px 20px;
-    line-height: 0;
+    padding: 12px 10px;
     width: 30%;
-    
+    gap: 10px;
 }
 .leftFooter img:nth-child(1){
     width: 70px;
@@ -126,12 +125,6 @@ footer h2{
         padding: 150px 5%;
         padding-bottom: 60px;
     }
-    .leftFooter{
-        width: 100%;
-    }
-    .leftFooter p{
-        width: 60%;
-    }
     .rightFooter{
         width: 100%;
     }
@@ -140,14 +133,18 @@ footer h2{
         font-size: 25px;
     }
 }
+
 @media(max-width: 800px){
     .rightFooter{
         display: flex;
         flex-wrap: wrap;
         row-gap: 30px;
+    }    
+    .footer{
+        flex-direction: column;
     }
-    .rightFooterContent{
-        width: 30%;
+    .leftFooter{
+        width: 50%;
     }
 }
 @media(max-width: 600px){

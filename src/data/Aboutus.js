@@ -17,7 +17,7 @@ export const Valuereasons = [
     },
     {
         title: "Diverse Selection",
-        reason: "Tortor condimentum lacinia quis vel eros donec odio. Feugiat fermentum in posuere urna. Faucibus turpis in eun mi bibendum."
+        reason: "Tortor condimentum latina quis vel eros donec odio. Feugiat fermentum in posuere urna. Faucibus turpis in eun mi bibendum."
     }
     
 ]
